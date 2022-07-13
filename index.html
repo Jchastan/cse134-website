@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Assignment webpage" />
+	<meta name="keywords" content="HTML, CSS, JavaScript" />
+	<meta name="author" content="John Chastanet" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>John's Website</title>
+	
+</head>
+
+<body>
+	<header>
+		<h1 style="color:blueviolet">John's Website</h1>
+	</header>
+
+	<main>
+		<body>
+			<section id="Other pages">
+				<p id="Sections"></p>
+				<script> document.getElementById("Sections").innerHTML = "Sections"</script>
+				<noscript class="error">Error: JavaScript is disabled or blocked.</noscript>
+			</section>
+		</body>
+		<h2>UCSD Images</h2>
+		<section class="img">
+			<h2>Bear</h2>
+			<img src="images/bear.png" alt="Warren Bear" height="430" width="700" />
+			<h2>ucsd link</h2>
+			<a href="https://ucsd.edu" target="_blank"><img src="images/ucsd.gif" alt="UCSD" height="177"
+				width="700"></a>
+			<br />
+			<section id="links">
+				<h3>Useful Links</h3>
+				<ul>
+					<li><a href="http://tritonlink.ucsd.edu">TritonLink</a></li>
+					<li><a href="http://canvas.ucsd.edu">Canvas</a></li>
+					<li><a href="http://w3.org">W3</a></li>
+				</ul>
+			</section>
+
+		<section class="video">
+			<h2>A rick roll</h2>
+			<video controls height="393" width="700">
+				<source src="videos/Rick Astley - Never Gonna Shoot Your Starsvideoplayback.mp4" type="video/mp4" />
+				<div class="error">Your browser does not support the video tag.</div>
+			</video>
+		</section>
+			<br />
+
+		</section>
+	</main>
+
+	<footer>
+		<hr/>
+		<p>💯This page was made with &hearts;  &#x1F171;y John Chastanet 💯</p>
+	</footer>
+	<script type="module">
+		import { update } from './scripts/main.js';
+		window.update = update;
+	</script>
+	<script nomodule src="scripts/main-es5.js"></script>
+</body>
+
+</html>
