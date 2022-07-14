@@ -16,8 +16,26 @@
     </header>
 
 	<main>
-		<label for="username">Enter your username:</label>
-		<label for="password" hidden="true">Enter your name:</label>
+		<form action="" method="get">
+			<label for="username">Enter your username:</label>
+			<input type="text" id="username" name="username"><br>
+			<label for="password">Enter your name:</label>
+			<input type="password" id="password" name="password"><br>
+			<label for="favorite color">Enter your favorite color:</label>
+			<select name="favorite color" id="favorite color">
+				<optgroup label="normal people answers">
+					<option value="red">red</option>
+					<option value="blue">blue</option>
+					<option value="orange">orange</option>
+					<option value="yellow">yellow</option>
+					<option value="green">green</option>
+					<option value="pink">pink</option>
+					<option value="purple">purple</option>
+					<option value="black">blue</option>
+					<option value="white">blue</option>
+				</optgroup>
+			</select>
+		</form>
 
 	</main>
 
