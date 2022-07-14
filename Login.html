@@ -25,11 +25,24 @@
 				<input type="password" id="password" name="password"><br>
 				<label for="nice things">Say 3 nice things about this site, or else:</label>
 				<textarea id="nice things" name="user comments" rows="2" cols="50"></textarea>
-			</fieldset>
-			<input type="submit" value="Submit">
-			<label for="favorite color">Enter your favorite color:</label>
-			<select name="favorite color" id="favorite color">
-				<optgroup label="normal people answers">
+				<details>
+					<summary>just... say something <i>nice</i> ok?</summary>
+				</details>
+				<label for="favorite color">Enter your favorite color:</label>
+				<select name="favorite color" id="favorite color">
+					<optgroup label="normal people answers">
+						<option value="red">red</option>
+						<option value="blue">blue</option>
+						<option value="orange">orange</option>
+						<option value="yellow">yellow</option>
+						<option value="green">green</option>
+						<option value="pink">pink</option>
+						<option value="purple">purple</option>
+						<option value="black">black</option>
+						<option value="white">white</option>
+					</optgroup>
+				</select>
+				<datalist id="colors">
 					<option value="red">red</option>
 					<option value="blue">blue</option>
 					<option value="orange">orange</option>
@@ -39,21 +52,11 @@
 					<option value="purple">purple</option>
 					<option value="black">black</option>
 					<option value="white">white</option>
-				</optgroup>
-			</select>
-			<datalist id="colors">
-				<option value="red">red</option>
-				<option value="blue">blue</option>
-				<option value="orange">orange</option>
-				<option value="yellow">yellow</option>
-				<option value="green">green</option>
-				<option value="pink">pink</option>
-				<option value="purple">purple</option>
-				<option value="black">black</option>
-				<option value="white">white</option>
-			</datalist>
-			<label for="least favorite color">Enter your least favorite flavor</label>
-			<input list="colors" id="least favorite color" name="least favorite color"/>
+				</datalist>
+				<label for="least favorite color">Enter your least favorite flavor</label>
+				<input list="colors" id="least favorite color" name="least favorite color"/>
+			</fieldset>
+			<input type="submit" value="Submit">
 		</form>
 
 	</main>
