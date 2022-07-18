@@ -10,7 +10,7 @@ header {
   background-image: url("../images/PartyWave.jpg");
   background-color: #fcfcdc;
   font-family: "Literata", serif;
-  color: white;
+  color:black; 
 }
 
 header > h1 {
@@ -18,8 +18,8 @@ header > h1 {
 }
 
 header > a {
-  text-align: right;
-  vertical-align: top;
+  text-align: left;
+  vertical-align: bottom;
 }
 header hr {
   width: 30%;
