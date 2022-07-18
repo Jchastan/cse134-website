@@ -7,6 +7,7 @@ body {
 
 /****** header ******/
 header {
+  display: grid;
   background-image: url("../images/DetailedLovecraft.jpg");
   background-color: #fcfcdc;
   font-family: "Literata", serif;
@@ -15,11 +16,14 @@ header {
 
 header > h1 {
   text-align: center;
+  grid-column: 1 / span 2;
+  grid-row: 1;
 }
 
 header > a {
-  text-align: right !important;
-  vertical-align: top !important;
+  text-align: center;
+  grid-column: 3;
+  grid-row: 1;
 }
 header hr {
   width: 30%;
