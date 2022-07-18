@@ -41,7 +41,7 @@ main {
 }
 #Website_page_buttons {
   display: grid;
-  align-items: normal;
+  align-items: stretch;
 }
 
 #Website_page_buttons > h2 {
