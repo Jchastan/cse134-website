@@ -2,7 +2,7 @@
 
 html,
 body {
-  background-color: lightblue;
+  background-color: lightblue !important;
 }
 @font-face {
   font-family: "Literata";
