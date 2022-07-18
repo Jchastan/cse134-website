@@ -2,15 +2,15 @@
 
 html,
 body {
-  background-color: lightslategray;
+  background-color:black; 
 }
 
 /****** header ******/
 header {
-  background-image: url("../images/PartyWave.jpg");
+  background-image: url("../images/DetailedLovecraft.jpg");
   background-color: #fcfcdc;
   font-family: "Literata", serif;
-  color:black; 
+  color:white; 
 }
 
 header > h1 {
@@ -18,8 +18,8 @@ header > h1 {
 }
 
 header > a {
-  text-align: left;
-  vertical-align: bottom;
+  text-align: right !important;
+  vertical-align: top !important;
 }
 header hr {
   width: 30%;
