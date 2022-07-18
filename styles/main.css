@@ -2,25 +2,7 @@
 
 html,
 body {
-  background-color: lightblue !important;
-}
-@font-face {
-  font-family: "Literata";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/Literata/static/Literata-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Literata";
-  font-style: bold;
-  font-weight: 400;
-  src: url("../fonts/Literata/static/Literata-Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Literata";
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/Literata/static/Literata-Italic.ttf") format("truetype");
+  background-color: red !important;
 }
 
 /****** header ******/
