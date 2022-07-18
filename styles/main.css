@@ -2,27 +2,30 @@
 
 html,
 body {
-  /*background-color:black;*/
-  background-image: url("../images/DetailedLovecraft.jpg");
-  background-color: var(--main-background-color);
-  font-family: "Literata", serif;
-  color:white; 
+  background-color:black;
 }
 :root {
   --main-background-color: #fcfcdc;
 }
 /****** header ******/
 header {
+  background-image: url("../images/DetailedLovecraft.jpg");
+  background-color: var(--main-background-color);
+  font-family: "Literata", serif;
+  color:white; 
+}
+
+.always-in-header {
   display: grid;
 }
 
-header > h1 {
+.always-in-header > h1 {
   text-align: center;
   grid-column: 1 / span 3;
   grid-row: 2;
 }
 
-header > a {
+.always-in-header > a {
   text-align: right;
   grid-column: 3;
   grid-row: 1;
