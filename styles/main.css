@@ -37,7 +37,7 @@ header {
   justify-content: center;
   grid-template-columns: repeat(auto-fit,minmax(0,1fr));
 }
-#website-page-buttons > div.site-link-buttons {
+#website-page-buttons > .site-link-buttons {
   background-color:black;
   border-color: white;
   border-width: 3pt;
