@@ -36,8 +36,6 @@ header {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit,minmax(0,1fr));
-  background-color: black;
-  border-color: white;
 }
 #website-page-buttons > div.site-link-buttons {
   background-color:black;
@@ -49,8 +47,6 @@ header {
   grid-row: 1;
   grid-column: 1 / span 3; 
   color: white;
-  background-color:transparent;
-  border-color:transparent;
 }
 
 #website-page-buttons > div.ResumeLink {
