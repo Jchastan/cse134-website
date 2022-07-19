@@ -38,12 +38,16 @@ header {
   justify-items: center;
   grid-template-columns: repeat(auto-fit,minmax(0,1fr));
 }
+
+.header-link-buttons:hover {
+  opacity: 1;
+}
 .header-link-buttons {
   background-color:black;
   border: 2pt solid white;
   padding-left: 1pt;
   padding-right: 1pt;
-  transform: scale(1.2);
+  opacity: 0.3;
   transition: all 1;
 }
 
