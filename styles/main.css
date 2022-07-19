@@ -11,7 +11,7 @@ body {
 header {
   background-image: url("../images/DetailedLovecraft.jpg");
   background-color: var(--main-background-color);
-  font-family: "Literata", serif;
+  font-family: "Literata", sans-serif;
   color:white; 
 }
 
