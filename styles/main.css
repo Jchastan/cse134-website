@@ -112,6 +112,19 @@ ul {
   transform: scalex(10);
 }
 
+.rainbow-text {
+  color: red;
+  animation-name: rickroll;
+  animation-duration: 4s;
+}
+
+@keyframes rickroll {
+  0% {color: red;}
+  25% {color: green;}
+  50% {color: blue;}
+  100% {color: red;}
+}
+
 ul li {
   margin: 5px;
 }
