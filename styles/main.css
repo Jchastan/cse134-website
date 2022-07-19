@@ -103,7 +103,7 @@ ul {
 .transforming-list {
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  align-items: center;
 }
 .transforming-list > li {
   transition: all 1s;
