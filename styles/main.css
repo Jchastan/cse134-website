@@ -47,8 +47,8 @@ header {
   border: 2pt solid white;
   padding-left: 1pt;
   padding-right: 1pt;
-  opacity: 0.3;
-  transition: all 1s;
+  opacity: 0.5;
+  transition: all .25s;
 }
 
 #website-page-buttons > h2 {
@@ -100,6 +100,11 @@ ul {
   width: 200px;
 }
 
+.transforming-list {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
 .transforming-list > li {
   transition: all 1s;
 }
