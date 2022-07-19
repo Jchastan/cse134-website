@@ -38,7 +38,7 @@ header {
   grid-template-columns: repeat(auto-fit,minmax(0,1fr));
 }
 
-#website-page-buttons > div.site-link-buttons {
+.site-link-buttons {
   background-color:black;
   border-color: white;
   border-width: 3pt;
@@ -50,17 +50,17 @@ header {
   color: white;
 }
 
-#website-page-buttons > .ResumeLink {
+.ResumeLink {
   grid-row: 2;
   grid-column: 1;
 }
 
-#website-page-buttons > .ProjectsLink {
+.ProjectsLink {
   grid-row: 2;
   grid-column: 2;
 }
 
-#website-page-buttons > .ExperimentalLink {
+.ExperimentalLink {
   grid-row: 2;
   grid-column: 3;
 }
