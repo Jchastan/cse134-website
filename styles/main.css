@@ -104,10 +104,13 @@ a:active { background-color: yellow; border: 4px solid red;}
 
 /****** footer ******/
 footer {
-  display:grid;
-  grid-template-columns: 25% 25% 25% 25%;
   font-size: small;
   text-align: center;
+}
+
+.footer-grid {
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 .about-link {
@@ -116,4 +119,12 @@ footer {
 
 .contacts-link {
   grid-column: 3;
+}
+
+.about-link-special {
+  grid-column: 2 / span 3;
+}
+
+.contacts-link-special {
+  grid-column: 2 / span 3;
 }
