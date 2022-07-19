@@ -34,12 +34,12 @@ header {
 
 #website-page-buttons {
   display: grid;
-  justify-content: center;
+  justify-items: center;
   grid-template-columns: repeat(auto-fit,minmax(0,1fr));
 }
 #website-page-buttons > .site-link-buttons {
   background-color:black;
-  border: 3pt white;
+  border: 3pt solid white;
 }
 
 #website-page-buttons > h2 {
