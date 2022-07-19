@@ -114,14 +114,17 @@ ul {
 
 .rainbow-text {
   color: red;
-  animation-name: rickroll;
-  animation-duration: .5s;
+  animation-name: "rickroll";
   animation-iteration-count: infinite;
+  animation-duration: 1s;
 }
 @keyframes rickroll {
   0%,100% {color: red;}
-  33% {color: green;}
-  66% {color: blue;}
+  17% {color: magenta;}
+  34% {color: blue;}
+  51% {color: cyan;}
+  68% {color: lime;}
+  89% {color: yellow;}
 }
 
 ul li {
