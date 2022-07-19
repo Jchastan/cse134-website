@@ -41,11 +41,10 @@ header {
 .header-link-buttons {
   background-color:black;
   border: 2pt solid white;
+  padding-left: 1pt;
+  padding-right: 1pt;
+  transform: scale(1.2);
   transition: all 1;
-}
-.website-header-buttons:hover {
-  transform-color: white;
-  transform-border: 2pt solid black;
 }
 
 #website-page-buttons > h2 {
