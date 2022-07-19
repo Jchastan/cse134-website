@@ -123,8 +123,10 @@ footer {
 
 .about-link-special {
   grid-column: 2 / span 3;
+  justify-self: center;
 }
 
 .contacts-link-special {
   grid-column: 2 / span 3;
+  justify-self: center;
 }
