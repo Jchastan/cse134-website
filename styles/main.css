@@ -48,7 +48,7 @@ header {
   padding-left: 1pt;
   padding-right: 1pt;
   opacity: 0.3;
-  transition: all 1;
+  transition: all 1s;
 }
 
 #website-page-buttons > h2 {
@@ -101,7 +101,7 @@ ul {
 }
 
 .transforming-list > li {
-  transition: all 1;
+  transition: all 1s;
 }
 .transforming-list > li:hover {
   transform: scalex(10);
