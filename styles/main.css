@@ -114,7 +114,7 @@ ul {
 
 .rainbow-text {
   color: red;
-  animation-name: "rickroll";
+  animation-name: rickroll;
   animation-iteration-count: infinite;
   animation-duration: 1s;
 }
