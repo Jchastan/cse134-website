@@ -19,7 +19,6 @@ header {
 
 .always-in-header {
   display: grid;
-
 }
 
 .always-in-header > h1 {
@@ -29,7 +28,7 @@ header {
 }
 
 .always-in-header > a {
-  text-align: right;
+  justify-self: end;
   grid-column: 3;
   grid-row: 1;
 }
@@ -39,7 +38,7 @@ header {
   justify-items: center;
   grid-template-columns: repeat(auto-fit,minmax(0,1fr));
 }
-#website-page-buttons > .site-link-buttons {
+#website-page-buttons > .header-link-buttons {
   background-color:black;
   border: 2pt solid white;
 }
