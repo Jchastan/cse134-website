@@ -39,7 +39,7 @@ header {
 }
 #website-page-buttons > .site-link-buttons {
   background-color:black;
-  gap: 3pt white;
+  border: 3pt white;
 }
 
 #website-page-buttons > h2 {
