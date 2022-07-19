@@ -37,8 +37,7 @@ header {
   justify-content: center;
   grid-template-columns: repeat(auto-fit,minmax(0,1fr));
 }
-
-.site-link-buttons {
+#website-page-buttons > .site-link-buttons {
   background-color:black;
   border-color: white;
   border-width: 3pt;
@@ -50,17 +49,17 @@ header {
   color: white;
 }
 
-.ResumeLink {
+#website-page-buttons > ResumeLink {
   grid-row: 2;
   grid-column: 1;
 }
 
-.ProjectsLink {
+#website-page-buttons > .ProjectsLink {
   grid-row: 2;
   grid-column: 2;
 }
 
-.ExperimentalLink {
+#website-page-buttons > .ExperimentalLink {
   grid-row: 2;
   grid-column: 3;
 }
