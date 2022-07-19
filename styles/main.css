@@ -4,14 +4,16 @@ html,
 body {
   background-color:black;
 }
+
 :root {
   --main-background-color: #fcfcdc;
 }
+
 /****** header ******/
 header {
   background-image: url("../images/DetailedLovecraft.jpg");
   background-color: var(--main-background-color);
-  font-family: "Literata", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color:white; 
 }
 
