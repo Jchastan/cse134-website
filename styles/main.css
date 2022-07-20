@@ -121,7 +121,7 @@ ul {
 .transforming-list > li:hover {
   transform: scalex(10);
 }
-.img {
+.images {
   max-width: 90vw;
   aspect-ratio: auto;
 }
@@ -133,9 +133,7 @@ ul {
   }
 
   iframe {
-    -zoom: 0.63;
-    height: 100pt;
-
+    height: 300pt;
   }
 
   .special-button {
