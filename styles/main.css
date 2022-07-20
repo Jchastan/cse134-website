@@ -123,6 +123,10 @@ ul {
   transform: scalex(10);
 }
 
+.special-button {
+  width: 50vw;
+}
+
 .super-important-table {
   margin-left: auto;
   margin-right: auto;
