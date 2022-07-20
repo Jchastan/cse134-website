@@ -77,10 +77,14 @@ header hr {
 }
 
 /****** main content ******/
-img{
-  margin: 10px;
-}
 
+@media print {
+  main {
+    background-color: white;
+    color:black
+  }
+
+}
 main {
   color: white;
   text-align: center;
