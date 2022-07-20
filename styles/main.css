@@ -124,7 +124,7 @@ ul {
 
 @Media screen and (max-width: 505pt){
 
-  main {
+  body {
     font-size: 1pt; 
   }
 
