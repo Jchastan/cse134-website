@@ -122,7 +122,7 @@ ul {
   transform: scalex(10);
 }
 img {
-  max-width: 700;
+  max-width: auto;
   width: auto;
   height: auto;
   aspect-ratio: auto;
