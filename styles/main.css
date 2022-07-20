@@ -121,8 +121,10 @@ ul {
 .transforming-list > li:hover {
   transform: scalex(10);
 }
-.images > img {
-  width: 90vw;
+img {
+  max-width: 700;
+  width: auto;
+  height: auto;
   aspect-ratio: auto;
 }
 
