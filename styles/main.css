@@ -129,16 +129,16 @@ ul {
 @Media screen and (max-width: 505pt){
 
   .audio-player {
-    height: 40pt;
+    height: 80pt;
   }
 
   iframe {
-    height: 300pt;
+    max-height: 70vh;
   }
 
   .special-button {
-    width: 40vw;
-    height: 20pt;
+    width: 69vw;
+    height: 69pt;
   }
 }
 .special-button {
