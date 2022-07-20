@@ -136,10 +136,10 @@ ul {
     height: 20pt;
   }
 }
-  .special-button {
-    width: 69vw;
-    height: 30pt;
-  }
+.special-button {
+  width: 69vw;
+  height: 30pt;
+}
 
 .super-important-table {
   margin-left: auto;
