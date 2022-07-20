@@ -127,6 +127,13 @@ ul {
   .audio-player {
     height: 40pt;
   }
+
+  iframe {
+    -zoom: 0.63;
+    height: 100pt;
+    
+  }
+
   .special-button {
     width: 40vw;
     height: 20pt;
