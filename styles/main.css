@@ -45,9 +45,9 @@ header {
 .header-link-buttons {
   background-color:black;
   border: 2pt solid white;
-  padding-left: 1pt;
-  padding-right: 1pt;
-  opacity: 0.5;
+  padding-left: 2pt;
+  padding-right: 2pt;
+  opacity: 0.7;
   transition: all .25s;
 }
 
@@ -89,7 +89,6 @@ main {
   color: white;
   text-align: center;
   font-size: 18pt;
-  font-size-adjust: ex-height;
 }
 
 .login-page-main {
@@ -125,8 +124,8 @@ ul {
 
 @Media screen and (max-width: 505pt){
 
-  body {
-    font-size:1px; 
+  main {
+    font-size: 18pt; 
   }
 
   .audio-player {
