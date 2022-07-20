@@ -125,12 +125,16 @@ ul {
 
 @Media screen and (max-width: 505pt){
 
+  body {
+    font-size: 30pt;
+  }
+
   .audio-player {
-    height: 40pt;
+    height: 120pt;
   }
   .special-button {
     width: 80vw;
-    height: 40pt;
+    height: 80pt;
   }
 }
   .special-button {
