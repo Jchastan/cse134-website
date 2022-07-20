@@ -123,9 +123,17 @@ ul {
   transform: scalex(10);
 }
 
-.special-button {
-  width: 50vw;
+@Media screen and (max-width: 505pt){
+
+  .special-button {
+    width: 80vw;
+    height: 26pt;
+  }
 }
+  .special-button {
+    width: 50vw;
+    height: 18pt;
+  }
 
 .super-important-table {
   margin-left: auto;
