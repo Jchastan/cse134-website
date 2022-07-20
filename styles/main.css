@@ -129,11 +129,11 @@ ul {
   }
 
   .audio-player {
-    height: 120pt;
+    height: 40pt;
   }
   .special-button {
-    width: 100vw;
-    height: 80pt;
+    width: 40vw;
+    height: 20pt;
   }
 }
   .special-button {
