@@ -135,16 +135,16 @@ img {
   }
 
   iframe {
-    max-height: 70vh;
+    max-height: 70%;
   }
 
   .special-button {
-    width: 69vw;
+    width: 69%;
     height: 69pt;
   }
 }
 .special-button {
-  width: 69vw;
+  width: 69%;
   height: 30pt;
 }
 
