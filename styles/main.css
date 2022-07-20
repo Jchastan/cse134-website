@@ -124,10 +124,6 @@ ul {
 
 @Media screen and (max-width: 505pt){
 
-  main {
-    font-size: 20pt; 
-  }
-
   .audio-player {
     height: 40pt;
   }
