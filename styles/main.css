@@ -83,15 +83,21 @@ header hr {
     background-color: white;
     color:black
   }
-
 }
+
 main {
   color: white;
   text-align: center;
+  font-size: 18pt;
+  font-size-adjust: ex-height;
 }
 
 .login-page-main {
   color: white;
+}
+
+.audio-player {
+  width: 50vw;
 }
 
 ul {
@@ -108,6 +114,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  size:20pt;
 }
 .transforming-list > li {
   transition: all 1s;
@@ -116,6 +123,12 @@ ul {
   transform: scalex(10);
 }
 
+.super-important-table {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  size: large;
+}
 .rainbow-text {
   color: red;
   animation-name: rickroll;
