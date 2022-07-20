@@ -97,7 +97,7 @@ main {
 }
 
 .audio-player {
-  width: 50vw;
+  width: 75vw;
 }
 
 ul {
@@ -125,14 +125,17 @@ ul {
 
 @Media screen and (max-width: 505pt){
 
+  .audio-player {
+    height: 40pt;
+  }
   .special-button {
     width: 80vw;
-    height: 26pt;
+    height: 40pt;
   }
 }
   .special-button {
     width: 50vw;
-    height: 18pt;
+    height: 30pt;
   }
 
 .super-important-table {
