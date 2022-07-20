@@ -121,6 +121,10 @@ ul {
 .transforming-list > li:hover {
   transform: scalex(10);
 }
+.img {
+  max-width: 90vw;
+  aspect-ratio: auto;
+}
 
 @Media screen and (max-width: 505pt){
 
@@ -131,7 +135,7 @@ ul {
   iframe {
     -zoom: 0.63;
     height: 100pt;
-    
+
   }
 
   .special-button {
