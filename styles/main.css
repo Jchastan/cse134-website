@@ -149,6 +149,9 @@ img {
   width: 69%;
   height: 30pt;
 }
+.submit-button {
+  font-size: 20pt;
+}
 
 .super-important-table {
   margin-left: auto;
