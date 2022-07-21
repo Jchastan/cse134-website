@@ -16,6 +16,7 @@ header {
   background-color: var(--main-background-color);
   font-family: "Titillium Web", sans-serif;
   color:white; 
+  font-size: 30pt;
 }
 
 .always-in-header {
@@ -114,7 +115,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  size:20pt;
+  resize:20pt;
 }
 .transforming-list > li {
   transition: all 1s;
@@ -139,6 +140,10 @@ img {
     max-height: 70%;
   }
 
+  footer {
+    font-size: 24;
+  }
+
   .special-button {
     width: 69%;
     height: 69pt;
@@ -152,7 +157,7 @@ img {
 .super-important-table {
   margin-left: auto;
   margin-right: auto;
-  size: large;
+  resize: large;
 }
 .rainbow-text {
   color: red;
@@ -182,7 +187,7 @@ a:active { background-color: yellow; border: 4px solid red;}
 
 /****** footer ******/
 footer {
-  font-size: small;
+  font-size: 18;
   text-align: center;
 }
 
