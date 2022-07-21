@@ -101,6 +101,12 @@ main {
   width: 75vw;
 }
 
+.login-field {
+  width: auto;
+  height: 18pt;
+  font-size: 18pt;
+}
+
 ul {
   background-color: white;
   border: 8px double black;

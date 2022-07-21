@@ -29,16 +29,16 @@
 			<fieldset width=100%>
 				<legend><b>Login info:</b></legend>
 				<label for="username">Enter your username:</label>
-				<input type="text" id="username" name="username"><br>
+				<input class="login-field" type="text" id="username" name="username"><br>
 				<label for="password">Enter your password:</label>
-				<input type="password" id="password" name="password"><br>
+				<input class="login-field" type="password" id="password" name="password"><br>
 				<label for="nice_things">Say 3 nice things about this site, or else:</label>
 				<textarea id="nice_things" name="user_comments" rows="2" cols="50"></textarea>
 				<details>
 					<summary>just... say something <i>nice</i> ok?</summary>
 				</details><br>
 				<label for="favorite_color">Enter your favorite color:</label>
-				<select name="favorite_color" id="favorite_color">
+				<select class="login-field" name="favorite_color" id="favorite_color">
 					<optgroup label="normal people answers">
 						<option value="red">red</option>
 						<option value="blue">blue</option>
@@ -63,7 +63,7 @@
 					<option value="white">white</option>
 				</datalist>
 				<label for="least_favorite_color">Enter your least favorite flavor</label>
-				<input list="colors" id="least_favorite_color" name="least_favorite_color"/>
+				<input class="login-field" list="colors" id="least_favorite_color" name="least_favorite_color"/>
 			</fieldset><br>
 			<input class="submit-button" type="submit" value="Submit">
 		</form>
