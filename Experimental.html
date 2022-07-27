@@ -93,8 +93,10 @@
 			</template>
 			<script>
 				//@ts-check
-				let images = document.getElementById('secret-images').content.firstElementChild.cloneNode(true)
-				document.getElementsByClassName('img')[0].append(images);
+				let image1 = document.getElementById('secret-images').content.firstElementChild.cloneNode(true)
+				let image2 = document.getElementById('secret-images').content.lastElementChild.cloneNode(true)
+				document.getElementsByClassName('img')[0].append(image1);
+				document.getElementsByClassName('img')[0].append(image2);
 			</script>
 		</section>
 		<h2>Super important table</h2>
