@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Assignment webpage" />
+	<meta name="keywords" content="HTML, CSS, JavaScript" />
+	<meta name="author" content="John Chastanet" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,600;1,200;1,600&display=swap" rel="stylesheet">
+	<title>John's Website</title>
+</head>
+<body>
+    <header>
+		<section class="always-in-header">
+			<h1>John's Website</h1>
+			<a class="header-link-buttons" href="Login.html">
+				Login
+			</a>
+		</section>
+    </header>
+    <main class="login-page-main">
+        <form id="420">
+            <label for="article_name">Enter the article name:</label>
+            <input class="login-field" type="text" id="article-name" name="article_name">
+            </br>
+            <div style="display:grid">
+                <label for="article_body" style="text-align:start; grid-row:2; grid-column: 1;">Enter your article:</label>
+                <textarea id="text-article" class="article-field" type="textarea" name="article_body" rows="20" cols="50" style="grid-row: 1 / span 3; grid-column: 2/ span 3;">
+                    You're a writer Harry
+                </textarea>
+            </div>
+            <input id="date" type="date" name="date" hidden>
+        </form>
+        <button id="postBtn" type="button">postBtn</button>
+        <button id="getBtn" type="button">getBtn</button>
+        <button id="putBtn" type="button">putBtn</button>
+        <button id="deleteBtn" type="button">deleteBtn</button>
+    </main>
+    <script>
+        //@ts-check
+        let currentDate = new Date();
+        let postbtn = document.getElementById('postBtn');
+        let getbtn = document.getElementById('getBtn');
+        let putbtn = document.getElementById('putBtn');
+        let deletebtn = document.getElementById('deleteBtn');
+        let formattedDate = currentDate.getFullYear() + '-0' + currentDate.getMonth() + '-' + currentDate.getDay()
+        let turninForm = document.forms['420'];
+        let formData = new FormData(turninForm);
+        //data.append('id', '420');
+        //data.append('article_name', articleName.getAttribute('value'));
+        //data.append('article_body', textArticle.getAttribute('value'));
+        formData.append('date', formattedDate);
+        postbtn.addEventListener('click', () => {
+            let xhr = new XMLHttpRequest();
+            xhr.open('POST','https://httpbin.org/post')
+            xhr.responseType = 'json';
+            xhr.onload = () => {
+                let bruh = xhr.response;
+                console.log(bruh);
+            }
+            xhr.send(formData);
+        });
+        getbtn.addEventListener('click', () => {
+            let xhr = new XMLHttpRequest();
+            xhr.open('GET','https://httpbin.org/get')
+            xhr.responseType = 'json';
+            xhr.onload = () => {
+                let bruh = xhr.response;
+                console.log(bruh);
+            }
+            xhr.send(formData);
+        });
+        putbtn.addEventListener('click', () => {
+            let xhr = new XMLHttpRequest();
+            xhr.open('PUT','https://httpbin.org/put')
+            xhr.responseType = 'json';
+            xhr.onload = () => {
+                let bruh = xhr.response;
+                console.log(bruh);
+            }
+            xhr.send(formData);
+        });
+        deletebtn.addEventListener('click', () => {
+            let xhr = new XMLHttpRequest();
+            xhr.open('GET','https://httpbin.org/delete')
+            xhr.responseType = 'json';
+            xhr.onload = () => {
+                let bruh = xhr.response;
+                console.log(bruh);
+            }
+            xhr.send(formData);
+        });
+    </script>
+</body>
+</html>
